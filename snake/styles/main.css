@@ -1,0 +1,75 @@
+
+body{
+	margin:0px;
+}
+
+#snake_game_player{
+	height:358px;
+	width:330px;
+	margin: 10px auto;
+	clear: both;
+	background:#FFFFFF;
+	/*-moz-border-radius:20px;
+	border-radius:20px;*/
+	box-shadow:rgba(0,0,0,.5) 0 4px 8px;
+	-moz-box-shadow:rgba(0,0,0,.5) 0 1px 2px;
+}
+
+#snake_game_player_container{
+	padding:5px;
+}
+
+#snake_game_player_stats{
+	height: 50px;
+	margin: 10px;
+	padding: 5px;
+	background-color:#eeeeee;
+	-moz-border-radius:10px;
+	border-radius:10px;
+	font: bold 11px Arial, Helvetica, sans-serif;
+}
+
+.snake_game_player_stats_high_score{
+	background:#b9c8f9 !important;
+}
+
+.snake_game_player_stats_high_score_text{
+	color:#ff0000 !important;
+}
+
+.game_level{
+	font: bold 10px Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	background: #999999;
+	margin: 0px 2px 0px 0px;
+	padding: 0px;
+	float: left;
+	width: 50px;
+	text-align: center;
+}
+
+#snake_box_container{
+	clear:both;
+	text-align: center;
+	margin: 10px 10px 0px;
+}
+
+#snake_box{
+	clear:both;
+	background: #eeeeee;
+	width: 300px;
+	height: 250px;
+	margin: 0px auto;
+}
+
+#game_drag{
+	float:right;
+	cursor:pointer;
+}
+
+.game_over{
+	background:#f9c5c5 !important;
+	font-weight:bold;
+	text-align:center;
+	color:#FFFFFF;
+}
